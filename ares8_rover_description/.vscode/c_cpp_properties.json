@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/karisora/nav_ws/install/pointcloud_to_laserscan/include/**",
+        "/home/karisora/nav_ws/install/livox_to_pointcloud2/include/**",
+        "/home/karisora/nav_ws/install/fast_lio/include/**",
+        "/home/karisora/nav_ws/install/livox_ros_driver2/include/**",
+        "/opt/ros/iron/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

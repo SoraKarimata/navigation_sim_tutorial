@@ -1,0 +1,25 @@
+{
+    "ros.distro": "iron",
+    "python.autoComplete.extraPaths": [
+        "/home/karisora/quiita_ws/install/ares8_rover_description/lib/python3.10/site-packages",
+        "/home/karisora/ares_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages",
+        "/home/karisora/ares_ws/install/ares8_rover_description/lib/python3.10/site-packages",
+        "/home/karisora/nav_ws/install/nav_rover_control/lib/python3.10/site-packages",
+        "/home/karisora/nav_ws/install/manual_control/lib/python3.10/site-packages",
+        "/home/karisora/nav_ws/install/fast_lio/lib/python3.10/site-packages",
+        "/home/karisora/nav_ws/install/livox_ros_driver2/lib/python3.10/site-packages",
+        "/home/karisora/kari_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/karisora/quiita_ws/install/ares8_rover_description/lib/python3.10/site-packages",
+        "/home/karisora/ares_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages",
+        "/home/karisora/ares_ws/install/ares8_rover_description/lib/python3.10/site-packages",
+        "/home/karisora/nav_ws/install/nav_rover_control/lib/python3.10/site-packages",
+        "/home/karisora/nav_ws/install/manual_control/lib/python3.10/site-packages",
+        "/home/karisora/nav_ws/install/fast_lio/lib/python3.10/site-packages",
+        "/home/karisora/nav_ws/install/livox_ros_driver2/lib/python3.10/site-packages",
+        "/home/karisora/kari_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}
