@@ -169,14 +169,14 @@
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -190,14 +190,14 @@
   <visual>
     <origin xyz="-0.419863 -0.406338 -0.411206" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/steering_link_lf_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/steering_link_lf_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.419863 -0.406338 -0.411206" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/steering_link_lf_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/steering_link_lf_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -211,14 +211,14 @@
   <visual>
     <origin xyz="0.290355 -0.406338 -0.411206" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/steering_link_lb_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/steering_link_lb_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.290355 -0.406338 -0.411206" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/steering_link_lb_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/steering_link_lb_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -232,14 +232,14 @@
   <visual>
     <origin xyz="0.291489 0.40822 -0.411206" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/steering_link_rb_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/steering_link_rb_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.291489 0.40822 -0.411206" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/steering_link_rb_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/steering_link_rb_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -253,14 +253,14 @@
   <visual>
     <origin xyz="-0.418728 0.40822 -0.411206" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/steering_link_rf_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/steering_link_rf_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.418728 0.40822 -0.411206" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/steering_link_rf_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/steering_link_rf_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -274,14 +274,14 @@
   <visual>
     <origin xyz="0.290355 -0.388613 -0.157306" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/tire_LB_link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/tire_LB_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.290355 -0.388613 -0.157306" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/tire_LB_link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/tire_LB_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -295,14 +295,14 @@
   <visual>
     <origin xyz="-0.419863 -0.388613 -0.157306" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/tire_LF_link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/tire_LF_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.419863 -0.388613 -0.157306" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/tire_LF_link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/tire_LF_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -316,14 +316,14 @@
   <visual>
     <origin xyz="0.291489 0.390495 -0.157306" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/tire_RB_link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/tire_RB_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.291489 0.390495 -0.157306" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/tire_RB_link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/tire_RB_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -337,14 +337,14 @@
   <visual>
     <origin xyz="-0.418728 0.390495 -0.157306" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/tire_RF_link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/tire_RF_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.418728 0.390495 -0.157306" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file:///home/karisora/quiita_ws/src/ares8_rover_description/meshes/tire_RF_link_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file:///home/karisora/ros2_ws/src/ares8_rover_description/meshes/tire_RF_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -412,4 +412,5 @@
 </material>
 
 </robot>
+
 
