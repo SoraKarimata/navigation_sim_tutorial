@@ -15,7 +15,7 @@ class Commander(Node):
 
         self.pub_pos = self.create_publisher(Float64MultiArray, '/str_controller/commands', 10)
         self.pub_vel = self.create_publisher(Float64MultiArray, '/tire_controller/commands', 10)
-        self.sub = self.create_subscription(Twist, '/cmd_vel_nav', self.cmd_vel_callback, 10)
+        self.sub = self.create_subscription(Twist, '/cmd_vel', self.cmd_vel_callback, 10)
 
         self.latest_twist = Twist()
         self.timer = self.create_timer(timer_period, self.timer_callback)
