@@ -104,7 +104,7 @@ controller_server:
       stateful: True
       plugin: "nav2_controller::SimpleGoalChecker"
       xy_goal_tolerance: 1.0
-      yaw_goal_tolerance: 1.0
+      yaw_goal_tolerance: 6.28
     # DWB parameters
     FollowPath:
       plugin: "dwb_core::DWBLocalPlanner"
@@ -203,8 +203,8 @@ global_costmap:
       # fit on a big static costmap. Thus it is recommended to use a rolling global costmap large enough to 
       # contain each pair of successive waypoints. See: https://github.com/ros-planning/navigation2/issues/2174
       rolling_window: True
-      width: 50
-      height: 50
+      width: 200
+      height: 200
       track_unknown_space: true
       # no static map
       plugins: ["obstacle_layer", "inflation_layer"]

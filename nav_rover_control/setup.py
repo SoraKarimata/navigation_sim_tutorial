@@ -31,7 +31,6 @@ setup(
             'interactive_waypoint_follower = nav_rover_control.interactive_waypoint_follower:main',
             'rover_control = nav_rover_control.rover_control:main',
             'gps_waypoint_logger = nav_rover_control.gps_waypoint_logger:main',
-            'static_transform_publisher = nav_rover_control.static_transform_publisher:main'
         ],
     },
 )
