@@ -10,8 +10,6 @@ class Commander(Node):
     def __init__(self):
         super().__init__('commander')
         timer_period = 0.01  # 100Hz
-
-
         self.pos = np.array([0.0, 0.0, 0.0, 0.0])  # lf_str, rf_str, lb_tire, rb_tire
         self.vel = np.array([0.0, 0.0, 0.0, 0.0])  # same order
 
@@ -64,10 +62,6 @@ class Commander(Node):
             self.vel[1] = -linear_velocity
             self.vel[2] = linear_velocity
             self.vel[3] = -linear_velocity
-
-
-
-
 
         pos_array = Float64MultiArray(data=self.pos.tolist())
         vel_array = Float64MultiArray(data=self.vel.tolist())
