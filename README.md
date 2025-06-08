@@ -1,6 +1,5 @@
 # Sim-env rover navigation
 ## Overview
-In this package, odometry is calculated from the number of tire rotations and steering rotation angle. 
 
 ![Screenshot from 2025-04-20 14-57-00](https://github.com/user-attachments/assets/e0b11be1-71d2-4f70-abc7-6df95a424d7e)
 
