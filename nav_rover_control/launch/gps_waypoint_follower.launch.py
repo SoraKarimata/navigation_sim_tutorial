@@ -83,6 +83,13 @@ def generate_launch_description():
         name='rover_control_node'
     )
 
+    static_transform_publisher = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_transform_publisher',
+        output='screen',
+        arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom']
+    )
 
     rviz_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -98,9 +105,9 @@ def generate_launch_description():
     # simulator launch
     ld.add_action(gazebo_cmd)
     ld.add_action(robot_state_publisher_node)
-
     # robot localization launch
     ld.add_action(robot_localization_cmd)
+    ld.add_action(static_transform_publisher)
 
     # navigation2 launch
     ld.add_action(navigation2_cmd)
