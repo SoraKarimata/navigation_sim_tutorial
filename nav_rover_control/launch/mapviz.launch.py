@@ -3,7 +3,6 @@ import launch.actions
 import launch.substitutions
 import launch_ros.actions
 import os
-import xacro
 from ament_index_python.packages import get_package_share_directory
 
 gps_wpf_dir = get_package_share_directory("nav_rover_control")
