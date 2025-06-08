@@ -1,0 +1,11 @@
+{
+    "ros.distro": "iron",
+    "python.autoComplete.extraPaths": [
+        "/home/karisora/ros2_ws/install/nav_rover_control/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/karisora/ros2_ws/install/nav_rover_control/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}

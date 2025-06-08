@@ -37,6 +37,18 @@ def generate_launch_description():
     )
 
     use_rviz = LaunchConfiguration('use_rviz')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='false')
+    urdf_file_name = 'ares8_rover.urdf'
+
+    print('urdf_file_name : {}'.format(urdf_file_name))
+
+    urdf = os.path.join(
+        get_package_share_directory('nav_rover_control'),
+        'urdf',
+        urdf_file_name)
+
+    with open(urdf, 'r') as infp:
+        robot_desc = infp.read()
 
     declare_use_rviz_cmd = DeclareLaunchArgument(
         'use_rviz',
@@ -48,9 +60,16 @@ def generate_launch_description():
             os.path.join(launch_dir, 'ares8_rover.launch.py'))
     )
 
-    robot_state_publisher = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(launch_dir, 'robot_state_publisher.launch.py'))
+    robot_state_publisher_node = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        name='robot_state_publisher',
+        output='screen',
+        parameters=[{
+            'use_sim_time': use_sim_time,
+            'robot_description': robot_desc,
+        }],
+        arguments=[urdf]
     )
 
     robot_localization_cmd = IncludeLaunchDescription(
@@ -92,7 +111,7 @@ def generate_launch_description():
 
     # simulator launch
     ld.add_action(gazebo_cmd)
-    ld.add_action(robot_state_publisher)
+    ld.add_action(robot_state_publisher_node)
 
     # robot localization launch
     ld.add_action(robot_localization_cmd)
